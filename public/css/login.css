@@ -1,0 +1,179 @@
+body{
+	margin:0;
+	 
+}
+:root{
+	--titlePage: blue;
+	--backgroundRegister: purple;
+	--fontBtn: arial;
+	--radiusBtn: 6px;
+	--titleFont: sans-serif;
+	--wd1: 150px;
+	--wd2: 300px;
+	--wd3: 350px;
+	--center: center;
+ 	--pad1: .3em;
+ 	--pad2: .5em;
+ 	--pad3: 1em;
+	--size1: 10px;
+	--size2: 15px;
+	--size3: 18px;
+	--size4: 20px;
+	--size4: 26px;
+
+}
+.title__nav{
+	color: var(--titlePage);
+	font-family: var(--titleFont);
+	margin-left: .3em;
+	letter-spacing: .5px;
+	font-size: var(--size4);
+}
+.header__nav{
+	background-color: orange;
+}
+.main__nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+*{
+	list-style: none;
+	text-decoration-line: none;
+}
+.menu__nav__link{
+	background-color: blue;
+	color:white;
+	margin:.3em;
+	padding:var(--pad3);
+	font-family: var(--fontBtn);
+	font-weight: 600;
+	border-radius: var(--radiusBtn);
+	font-size: var(--size3)
+}
+.menu__nav__link:hover{
+	opacity: .8;
+}
+.register{
+	background-color: var(--backgroundRegister);
+	color: #ddd;
+	border-radius: var(--radiusBtn);
+ 
+}
+ 
+
+
+.container__login{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5em;
+}
+
+ .form__data{
+ 	display: flex;
+ 	justify-content: center;align-items: center;
+ 	flex-direction: column;
+ }
+.input__email{
+	min-width: var(--wd2);
+	text-align: var(--center);
+	padding: var(--pad2);
+	margin: var(--pad2);
+	font-size: var(--size3);
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+.input__password{
+	min-width: var(--wd2);
+	text-align: var(--center);
+	padding: var(--pad2);
+	margin: var(--pad2);
+	font-size: var(--size3);
+	border-radius: 3px;
+	border: 1px solid #ddd;
+}
+.btn__send{
+	padding: var(--pad2);
+	width: var(--wd2);
+	background-color: var(--titlePage);
+	border: 1px solid white;
+	border-radius: var(--radiusBtn);
+	color: white;
+	font-size: var(--size3);
+	margin-top: var(--pad2);
+}	
+.btn__send:hover{
+	opacity: .8;
+	cursor: pointer;
+}
+.login__title{
+	font-family: arial;
+	width: var(--wd1);
+	text-align: center;
+	color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
