@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Login</title>
+	<title>Login JFit</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="public/css/login.css">
 </head>
@@ -16,7 +16,7 @@
 		<!-- menu of login -->
 		<ul class="menu__nav" id="menu__nav--js">
 			<li class="menu__nav__list" id="menu__nav__list--js">
-				<a href="register.html" class="menu__nav__link register" id="menu__nav__link---js">Registrarse</a>
+				<a href="register.html" class="menu__nav__link register" id="menu__nav__link--js">Registrarse</a>
 			</li>
 		</ul>
 
@@ -31,10 +31,13 @@
 
 <div class="container__login">
 	<h1 class="login__title">Login</h1>
-
+<div class="container__novalidate" id="container__validate--js">
+			<strong class="text__validate">Validate</strong>
+		</div>
 	<form action="" method="POST" autocomplete="off" class="form__data" id="form__data--js">
-		<input type="email" id="input__email--js" class="input__email"  placeholder="Email" value="myuser@email.com">	
-		<input type="password" id="input__password--js" class="input__password" placeholder="Password" value=".......">	
+		
+		<input type="email" id="input__email--js" class="input__email"  placeholder="Email" value="myuser@email.com" required="">	
+		<input type="password" id="input__password--js" class="input__password" placeholder="Password" value="......." required="">	
 		<button class="btn__send" id="btn__send--js">Entrar</button>
 		<!-- <div class="pass">
 			<a href="">Olvidaste tu contraseña</a>

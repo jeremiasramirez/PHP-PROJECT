@@ -2,6 +2,9 @@ body{
 	margin:0;
 	 
 }
+input{
+	background-color: #ddd;
+}
 :root{
 	--titlePage: blue;
 	--backgroundRegister: purple;
@@ -25,6 +28,7 @@ body{
 .title__nav{
 	color: var(--titlePage);
 	font-family: var(--titleFont);
+	margin:0;
 	margin-left: .3em;
 	letter-spacing: .5px;
 	font-size: var(--size4);
@@ -44,15 +48,25 @@ body{
 .menu__nav__link{
 	background-color: blue;
 	color:white;
+	display: inline-block;
 	margin:.3em;
-	padding:var(--pad3);
+	padding:var(--pad2);
 	font-family: var(--fontBtn);
 	font-weight: 600;
+	border: 0;
 	border-radius: var(--radiusBtn);
-	font-size: var(--size3)
+	font-size: var(--size3);
+	transition: .3s;
+
+
 }
 .menu__nav__link:hover{
 	opacity: .8;
+	transition: .3s;
+ 
+}
+.scale{
+	transform: scale(.8);
 }
 .register{
 	background-color: var(--backgroundRegister);
@@ -68,13 +82,46 @@ body{
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 5em;
+	margin-top: 4em;
+ 
 }
 
+.login__title{
+	border: 1px solid #ddd;
+	border-radius: var(--radiusBtn);
+	padding:0 1.5em 0 1.5em;
+}
+
+.container__validate{
+	background-color: #2dd446;
+	width: 15em;
+	text-align: center;
+	font-family: arial; 
+	padding: var(--pad1);
+	border-radius: var(--radiusBtn);
+ 
+}
+.container__novalidate{
+	background-color: #f01b1b;
+	width: 15em;
+	text-align: center;
+	font-family: arial; 
+	padding: var(--pad1);
+	border-radius: var(--radiusBtn);
+ 
+}
+.text__validate{
+	color: white;
+	font-size: var(--size3)
+}
  .form__data{
  	display: flex;
  	justify-content: center;align-items: center;
  	flex-direction: column;
+ 	border: 1px solid #eee;
+ 	padding: 6em 2em;
+ 	border-radius: 6px;
+ 	background-color: #f1f1
  }
 .input__email{
 	min-width: var(--wd2);
@@ -103,10 +150,13 @@ body{
 	color: white;
 	font-size: var(--size3);
 	margin-top: var(--pad2);
+	transition: .3s;
 }	
 .btn__send:hover{
 	opacity: .8;
 	cursor: pointer;
+	transition: .3s;
+	background-color: purple;
 }
 .login__title{
 	font-family: arial;
