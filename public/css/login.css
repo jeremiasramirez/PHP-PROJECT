@@ -25,6 +25,7 @@ input{
 	--size4: 26px;
 
 }
+ 
 .title__nav{
 	color: var(--titlePage);
 	font-family: var(--titleFont);
@@ -35,6 +36,7 @@ input{
 }
 .header__nav{
 	background-color: orange;
+
 }
 .main__nav{
 	display: flex;
@@ -90,7 +92,9 @@ input{
 	border: 1px solid #ddd;
 	border-radius: var(--radiusBtn);
 	padding:0 1.5em 0 1.5em;
+	margin: 0;
 }
+
 
 .container__validate{
 	background-color: #2dd446;
@@ -114,15 +118,30 @@ input{
 	color: white;
 	font-size: var(--size3)
 }
+
  .form__data{
  	display: flex;
  	justify-content: center;align-items: center;
  	flex-direction: column;
  	border: 1px solid #eee;
- 	padding: 6em 2em;
+ 	padding: 10em 0;
  	border-radius: 6px;
- 	background-color: #f1f1
+ 	background-color: #f1f1;
+ 	margin-bottom: 3em;
+ 	margin-top: 1em;
  }
+ @media screen and (min-width: 320px){
+	.login__title{
+		margin: -4em 2em 2em;
+	}
+	.form__data{
+		 
+		padding: -1em;
+	}
+	body{
+		padding-right: -1em;
+	}
+}
 .input__email{
 	min-width: var(--wd2);
 	text-align: var(--center);
@@ -164,7 +183,6 @@ input{
 	text-align: center;
 	color: #333;
 }
-
 
 
 
