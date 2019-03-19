@@ -183,7 +183,10 @@ input{
 	text-align: center;
 	color: #333;
 }
-
+.btn__error{
+	background-color: rgb(123, 131, 146);
+	
+}
 
 
 
