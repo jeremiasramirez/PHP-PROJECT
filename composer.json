@@ -1,0 +1,13 @@
+{
+    "name": "jeremias/php-project",
+    "authors": [
+        {
+            "name": "Jeremias ramirez",
+            "email": "jereramirez499@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^5.8",
+        "illuminate/database": "5.8.3"
+    }
+}
