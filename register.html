@@ -28,11 +28,16 @@
 <div class="container__login">
  
 
-	<form action="" method="POST" enctype="application/x-www-form-urlencoded" autocomplete="off" class="form__data" id="form__data--js">
+	<form action="controller/user.php" method="POST" enctype="application/x-www-form-urlencoded" autocomplete="off" class="form__data" id="form__data--js">
 		<h1 class="login__title">Registro</h1>
+
+		<input type="text" id=" " name="name__register" class="input__email"  placeholder="Name" required="">	
+
 	 	<input type="text" id="input__email--js" name="email__register" class="input__email" placeholder="Email" value="myuser@email.com" required="">	
+
 		<input type="password" id="input__password--js" name="pass__register" class="input__password r2" placeholder="Password" value=" " required="">
-		<input type="password" id="input__password--js bc" name="pass__register-2" class="input__password bc" placeholder="Password" value=" " required="">
+ 
+
 		<button class="btn__send" id="btn__send--js">Registrate</button>
 	
 	</form>
