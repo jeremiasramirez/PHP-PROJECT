@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mi perfil</title>
+    <link rel="stylesheet" href="../public/css/user-views.css">
 </head>
 <body>
     
+    <header>
+
+    	<nav>
+    		<ul>
+    			<li><a href="">Home</a></li>
+    			<li><a href="">Quit</a></li>
+    		</ul>
+    	</nav>
+    	
+    </header>
+
+
+
 </body>
 </html>

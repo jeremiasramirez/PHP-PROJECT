@@ -61,7 +61,7 @@ input{
 	font-family: var(--fontBtn);
 	font-weight: 600;
 	border: 0;
-	border-radius: var(--radiusBtn);
+	border-radius: 5px;
 	font-size: var(--size3);
 	transition: .3s;
 
@@ -78,7 +78,7 @@ input{
 .register{
 	background-color: var(--backgroundRegister);
 	color: #ddd;
-	border-radius: var(--radiusBtn);
+	border-radius: 5px;
  
 }
  
